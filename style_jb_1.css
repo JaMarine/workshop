@@ -1,0 +1,56 @@
+/*
+
+Colors
+
+https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46
+
+lighest-green: rgb(202, 210, 197)
+light-green: rgb(132, 169,140)
+green: rgb(82,121,111)
+dark-green: rgb(53,79,82)
+darkest-green: rgb(47,62,70)
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+html {
+    background-color: rgb(202, 210,197);
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: rgb(47,62,70);
+    margin:0;
+    padding:50px;
+}
+
+body {
+    background-color: white;
+    padding: 50px 100px;
+}
+
+.emphasize {
+    font-weight: bold;
+    margin: 50px -100px 50px;
+    padding: 50px 100px;
+    background: rgb(82,121,111);
+    color: rgba(255,255,255, .8);
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 300%;
+    margin-bottom: 5em;
+}
+
+h2 {
+    font-size: 200%;
+    color: rgb(132, 169,140);
+    margin-bottom:0;
+    margin-top: 3em;
+}
+
+p.summary {
+    color: rgb(82,121,111);
+    font-size: 125%;
+    margin-top:0;
+}

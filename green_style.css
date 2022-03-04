@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&family=Karla:wght@200&display=swap');
+
+html {
+    background-color: rgb(202, 210,197);
+    font-size: 20px;
+    color: black;
+    margin:0;
+    padding:50px;
+}
+
+body {
+    background-color: rgb(53,79,82);
+    padding: 50px 100px;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgba(255,255,255, .8);
+    background: rgb(53,79,82);
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+h2{
+    color: rgba(255,255,255, .8);
+    background: rgb(53,79,82);
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-weight: 150;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.emphasize {
+    font-weight: bold;
+    padding: 50px 100px;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 125%;
+    background: rgb(132,169,140);
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+    background: rgb(202, 210,197);
+}
